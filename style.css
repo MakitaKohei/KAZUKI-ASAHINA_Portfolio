@@ -1,0 +1,112 @@
+/* PC、スマホ共通スタイル */
+
+/* ================
+PC用のスタイル
+================= */
+body{
+  max-width: 960px;
+  margin:0;
+  padding:0;
+}
+
+nav{
+  display:flex;
+  justify-content: space-between;
+  margin:20px 0 20px 0;
+}
+
+nav a{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+  text-decoration:none;
+  font-size:34px;
+  color:#000000;
+}
+
+/* ナビゲーションメニュー MyProfile */
+.home{
+  border: 1px solid black;
+  padding:0px 20px;
+  margin-left: 20px;
+}
+
+/* メニューの余白 */
+.menu > a{
+  margin:0 20px;
+}
+
+/* メイン画像 */
+#mainvisual > img{
+  width:100%;
+}
+
+/* ABOUT */
+.index-h2{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size:34px;
+  text-align: center;
+  padding:60px 0 40px 0;
+}
+
+.about-flex{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 960px;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+.about-photo{
+  border-radius: 50%;
+  width:280px;
+  height:280px;
+  margin:20px;
+}
+
+.about-text{
+  padding-left:40px;
+}
+
+
+.index-h3{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size:24px;
+  font-weight:bold;
+}
+
+p{
+  font-size:18px;
+}
+
+/* WORKS */
+.works-flex{
+  display:flex;
+  flex-wrap:wrap;
+  max-width: 960px;
+  margin: 20px auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.works-1{
+  padding:0 0 60px 0;
+  width:25%;
+}
+
+.works-2{
+  padding:0 0 60px 0;
+  width:25%;
+}
+
+.works-3{
+  padding:0 0 60px 0;
+  width:25%;
+}
+
+/* フッター */
+.footer{
+  text-align:center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
